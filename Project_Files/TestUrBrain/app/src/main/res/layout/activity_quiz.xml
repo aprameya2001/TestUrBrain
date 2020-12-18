@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".QuizActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layoutSpace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginBottom="20sp"
+                android:background="#211323">
+
+                <ImageView
+                    android:id="@+id/ivSpace"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/quiz_time"
+                    android:layout_marginTop="10sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorText"
+                    android:text="Space and Technology"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#A9A9A9"
+                    android:text="Learn the secrets of the vast space!"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutOops"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginBottom="20sp"
+                android:background="#211323">
+
+                <ImageView
+                    android:id="@+id/ivOops"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/quiz_time"
+                    android:layout_marginTop="10sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorText"
+                    android:text="OOPS"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#A9A9A9"
+                    android:text="Learn more about Object Oriented Programming!"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutGK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginBottom="20sp"
+                android:background="#211323">
+
+                <ImageView
+                    android:id="@+id/ivGK"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/quiz_time"
+                    android:layout_marginTop="10sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorText"
+                    android:text="General Knowledge"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#A9A9A9"
+                    android:text="Test your general knowledge!"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutIP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginBottom="20sp"
+                android:background="#211323">
+
+                <ImageView
+                    android:id="@+id/ivIP"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/quiz_time"
+                    android:layout_marginTop="10sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorText"
+                    android:text="Indian Politics"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#A9A9A9"
+                    android:text="Test your knowledge on Indian politics!"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutSports"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginBottom="20sp"
+                android:background="#211323">
+
+                <ImageView
+                    android:id="@+id/ivSports"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/quiz_time"
+                    android:layout_marginTop="10sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorText"
+                    android:text="Sports"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#A9A9A9"
+                    android:text="Dive into the world of sports and games!"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutGS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginBottom="20sp"
+                android:background="#211323">
+
+                <ImageView
+                    android:id="@+id/ivGS"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/quiz_time"
+                    android:layout_marginTop="10sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorText"
+                    android:text="General Science"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#A9A9A9"
+                    android:text="Do you have what it takes to become a scientist?"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutFP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginBottom="20sp"
+                android:background="#211323">
+
+                <ImageView
+                    android:id="@+id/ivFP"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/quiz_time"
+                    android:layout_marginTop="10sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorText"
+                    android:text="Famous Places"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#A9A9A9"
+                    android:text="Interested in travelling? Check out this quiz!"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10sp"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

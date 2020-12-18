@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".SignupActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80sp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center_horizontal"
+        android:text="Signup Now!"
+        android:textColor="#ECE105"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/etNameSUP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="70sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="10sp"
+        android:ems="10"
+        android:hint="Enter your full name"
+        android:inputType="textPersonName"
+        android:paddingLeft="5sp"
+        android:paddingTop="10sp"
+        android:paddingRight="5sp"
+        android:paddingBottom="10sp"
+        android:drawableStart="@drawable/person_small"
+        android:drawablePadding="10sp"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A9A9A9"/>
+
+
+    <EditText
+        android:id="@+id/etEmailSUP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="10sp"
+        android:ems="10"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5sp"
+        android:paddingTop="10sp"
+        android:paddingRight="5sp"
+        android:paddingBottom="10sp"
+        android:drawableLeft="@drawable/email"
+        android:drawableStart="@drawable/email"
+        android:drawablePadding="10sp"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A9A9A9"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etPasswordSUP"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginBottom="10sp"
+            android:ems="10"
+            android:hint="Create Password"
+            android:inputType="textPassword"
+            android:paddingLeft="5sp"
+            android:paddingTop="10sp"
+            android:paddingRight="5sp"
+            android:paddingBottom="10sp"
+            android:drawableLeft="@drawable/password"
+            android:drawableStart="@drawable/password"
+            android:drawablePadding="10sp"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_weight="6"
+            android:textColorHint="#A9A9A9"/>
+
+        <ImageButton
+            android:id="@+id/ibtnPwdSUP"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="18sp"
+            app:srcCompat="@drawable/eye"
+            android:background="#00000000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etPasswordSUP2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginBottom="10sp"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:paddingLeft="5sp"
+            android:paddingTop="10sp"
+            android:paddingRight="5sp"
+            android:paddingBottom="10sp"
+            android:drawableLeft="@drawable/password"
+            android:drawableStart="@drawable/password"
+            android:drawablePadding="10sp"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_weight="6"
+            android:textColorHint="#A9A9A9"/>
+
+        <ImageButton
+            android:id="@+id/ibtnPwdSUP2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="18sp"
+            app:srcCompat="@drawable/eye"
+            android:background="#00000000"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginRight="30sp"
+        android:background="@drawable/round_bg"
+        android:text="Signup"
+        android:textColor="@color/colorText"
+        android:elevation="8dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvGoToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="10sp"
+        android:clickable="true"
+        android:text="Already registered? Login now"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+
+
+
+</LinearLayout>
